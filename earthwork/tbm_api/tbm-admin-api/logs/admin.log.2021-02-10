@@ -1,0 +1,17 @@
+INFO  2021-02-10 05:48:00,969 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on localhost with PID 978 (/Users/chenren/Desktop/dts-shop/dts_shop_api/dts-admin-api/target/classes started by chenren in /Users/chenren/Desktop/dts-shop/dts_shop_api/dts-admin-api)
+DEBUG 2021-02-10 05:48:00,970 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-02-10 05:48:00,970 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-02-10 05:48:07,773 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2021-02-10 05:48:07,807 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 7.568 seconds (JVM running for 8.629)
+INFO  2021-02-10 05:48:12,160 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2021-02-10 05:52:50,386 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"dtsadmin","password":"dtsadmin"}
+INFO  2021-02-10 05:52:50,604 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"9f555d81-31e3-49eb-8229-10143d5a0d86"
+INFO  2021-02-10 05:52:50,720 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"dtsadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-02-10 05:52:51,004 [http-nio-8083-exec-6] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-02-10 05:52:51,142 [http-nio-8083-exec-6] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"goodsTotal":424,"userTotal":197,"productTotal":8937,"orderTotal":107}
+INFO  2021-02-10 10:18:20,304 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2021-02-10 10:48:19,803 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2021-02-10 10:48:20,293 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2021-02-10 11:18:20,377 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2021-02-10 11:48:19,803 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2021-02-10 11:48:20,307 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单

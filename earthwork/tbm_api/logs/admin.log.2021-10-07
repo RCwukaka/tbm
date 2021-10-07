@@ -1,0 +1,877 @@
+INFO  2021-10-07 11:08:51,697 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2118 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 11:08:51,698 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 11:08:51,699 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 15:19:31,035 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2412 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 15:19:31,039 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 15:19:31,045 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 15:38:21,847 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2520 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 15:38:21,848 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 15:38:21,850 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:06:50,914 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2601 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:06:50,916 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:06:50,918 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+ERROR 2021-10-07 16:08:08,569 [restartedMain] com.alibaba.druid.pool.DruidDataSource > init datasource error, url: jdbc:mysql://192.168.0.188:3306/tbm?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:861)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1323)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:507)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:485)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:619)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:177)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.realm(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig.securityManager(ShiroConfig.java:55)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.CGLIB$securityManager$0(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960$$FastClassBySpringCGLIB$$b2e3f18d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.securityManager(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:236)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:710)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.qiguliuxing.dts.admin.api.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 185 common frames omitted
+ERROR 2021-10-07 16:08:08,578 [restartedMain] com.alibaba.druid.pool.DruidDataSource > {dataSource-1} init error
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:861)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1323)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:507)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:485)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:619)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:177)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.realm(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig.securityManager(ShiroConfig.java:55)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.CGLIB$securityManager$0(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960$$FastClassBySpringCGLIB$$b2e3f18d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.securityManager(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:236)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:710)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.qiguliuxing.dts.admin.api.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 185 common frames omitted
+ERROR 2021-10-07 16:08:08,605 [restartedMain] org.springframework.boot.SpringApplication > Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroConfig' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes/com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'realm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:236)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:710)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.qiguliuxing.dts.admin.api.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'realm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'realm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 52 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'realm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'realm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	... 83 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'realm': Unsatisfied dependency expressed through field 'adminService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:586)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.realm(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig.securityManager(ShiroConfig.java:55)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.CGLIB$securityManager$0(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960$$FastClassBySpringCGLIB$$b2e3f18d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$23a7f960.securityManager(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 84 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tbmAdminService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	... 107 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbmAdminMapper' defined in file [/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-dao/target/classes/com/qiguliuxing/dts/db/dao/TbmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1436)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1323)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:507)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:485)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:619)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:177)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	... 118 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1421)
+	... 134 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 147 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:861)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 158 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 185 common frames omitted
+INFO  2021-10-07 16:09:56,228 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2630 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:09:56,229 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:09:56,230 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:10:01,028 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 6.008 seconds (JVM running for 7.431)
+INFO  2021-10-07 16:17:19,299 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2677 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:17:19,301 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:17:19,306 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:17:24,397 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 5.846 seconds (JVM running for 6.998)
+INFO  2021-10-07 16:17:31,848 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"dtsadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:17:32,159 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:17:45,865 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"tbmadmin"}
+ERROR 2021-10-07 16:17:45,872 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:19:35,948 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"tbmadmin"}
+ERROR 2021-10-07 16:19:35,954 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:19:47,996 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2681 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:19:47,997 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:19:47,999 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:19:53,931 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 6.929 seconds (JVM running for 9.294)
+INFO  2021-10-07 16:19:56,372 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"tbmadmin"}
+INFO  2021-10-07 16:26:01,164 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"tbmadmin"}
+ERROR 2021-10-07 16:26:01,186 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:26:12,477 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2720 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:26:12,479 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:26:12,481 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:26:17,032 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 5.389 seconds (JVM running for 6.23)
+INFO  2021-10-07 16:26:22,559 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:26:22,736 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:33:57,749 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:33:57,762 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:34:05,312 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"11112313"}
+ERROR 2021-10-07 16:34:05,319 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:39:22,858 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2780 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:39:22,863 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:39:22,865 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:39:27,222 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 5.231 seconds (JVM running for 6.753)
+INFO  2021-10-07 16:39:33,166 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:39:33,466 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - tbmadmin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+ERROR 2021-10-07 16:39:33,469 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:41:22,102 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:41:22,117 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - tbmadmin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+ERROR 2021-10-07 16:41:22,118 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:41:37,026 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2794 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:41:37,027 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:41:37,033 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:41:42,989 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 7.241 seconds (JVM running for 8.443)
+INFO  2021-10-07 16:42:10,574 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:42:10,805 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - tbmadmin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+ERROR 2021-10-07 16:42:10,806 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:42:29,764 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2800 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:42:29,765 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:42:29,767 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:42:35,707 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 6.592 seconds (JVM running for 7.905)
+INFO  2021-10-07 16:42:58,132 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:42:58,362 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - tbmadmin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+ERROR 2021-10-07 16:42:58,362 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:43:34,996 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:47:14,004 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - tbmadmin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+ERROR 2021-10-07 16:47:14,006 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录 错误:用户帐号已锁定不可用
+INFO  2021-10-07 16:49:03,567 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2821 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:49:03,569 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:49:03,570 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:49:10,758 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 8.147 seconds (JVM running for 9.301)
+INFO  2021-10-07 16:49:13,791 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"dtsadmin","password":"dtsadmin"}
+ERROR 2021-10-07 16:49:13,947 [http-nio-8083-exec-1] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（dtsadmin）的帐号信息
+ERROR 2021-10-07 16:49:13,948 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+INFO  2021-10-07 16:49:20,826 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+INFO  2021-10-07 16:49:21,045 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"bac0bd01-e3d4-46f3-811e-3a3bc952353c"
+INFO  2021-10-07 16:50:07,915 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2828 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:50:07,915 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:50:07,917 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:50:12,586 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 5.265 seconds (JVM running for 6.095)
+INFO  2021-10-07 16:50:13,915 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+INFO  2021-10-07 16:50:14,233 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"b51d486c-fa11-4f4b-9ff2-b4b5146ce265"
+INFO  2021-10-07 16:52:02,173 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2832 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:52:02,176 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:52:02,177 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:52:06,143 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 4.716 seconds (JVM running for 5.978)
+INFO  2021-10-07 16:52:10,304 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"dtsadmin"}
+INFO  2021-10-07 16:52:10,595 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"216ab94a-fb5e-492e-92a3-d3f578e781f5"
+INFO  2021-10-07 16:52:10,729 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 16:52:10,934 [http-nio-8083-exec-5] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:52:10,969 [http-nio-8083-exec-5] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:52:29,941 [http-nio-8083-exec-7] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:52:29,948 [http-nio-8083-exec-7] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:52:33,503 [http-nio-8083-exec-8] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:52:33,510 [http-nio-8083-exec-8] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:52:35,920 [http-nio-8083-exec-10] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:52:35,924 [http-nio-8083-exec-10] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:52:39,914 [http-nio-8083-exec-1] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:52:39,920 [http-nio-8083-exec-1] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:52:53,815 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 16:52:53,936 [http-nio-8083-exec-5] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:52:53,944 [http-nio-8083-exec-5] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:53:15,904 [http-nio-8083-exec-7] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:53:15,907 [http-nio-8083-exec-7] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:53:35,494 [http-nio-8083-exec-9] c.qiguliuxing.dts.admin.web.AdminProfileController > 【请求开始】系统管理->修改密码,请求参数,body:{"oldPassword":"dtsadmin","newPassword":"tbmadmin","newPassword2":"tbmadmin"}
+INFO  2021-10-07 16:53:35,712 [http-nio-8083-exec-9] c.qiguliuxing.dts.admin.web.AdminProfileController > 【请求结束】系统管理->修改密码,响应结果:成功!
+INFO  2021-10-07 16:53:39,666 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 16:56:05,486 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 2856 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 16:56:05,487 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 16:56:05,488 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 16:56:10,173 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 5.37 seconds (JVM running for 6.351)
+INFO  2021-10-07 16:56:28,149 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"tbmadmin"}
+INFO  2021-10-07 16:56:28,487 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"6c5d2e0c-7456-4e4c-9738-c93873ffd86e"
+INFO  2021-10-07 16:56:28,560 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 16:56:28,688 [http-nio-8083-exec-9] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 16:56:28,708 [http-nio-8083-exec-9] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 16:56:31,889 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 16:56:31,958 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 16:56:46,843 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求开始】系统管理->管理员管理->查询,请求参数:username:null,page:1
+INFO  2021-10-07 16:56:46,845 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->查询所有角色
+INFO  2021-10-07 16:56:46,846 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->查询所有角色,响应结果:[{"value":1,"label":"超级管理员"},{"value":2,"label":"商场管理员"},{"value":3,"label":"推广管理员"},{"value":4,"label":"品牌制造商"}]
+INFO  2021-10-07 16:56:46,866 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求结束】系统管理->管理员管理->查询,响应结果:{"total":2,"items":[{"avatar":"https://juhuixing-tbm.oss-cn-shenzhen.aliyuncs.com/lb4z86x7mr735sy91ys9.jpeg","id":5,"roleIds":[4],"username":"tbmdemo"},{"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg","id":1,"roleIds":[1],"username":"tbmadmin"}]}
+INFO  2021-10-07 16:56:48,836 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->角色查询,请求参数,name:null,page:1
+INFO  2021-10-07 16:56:48,844 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->角色查询,响应结果:{"total":4,"items":[{"addTime":"2019-06-22T21:28:19","deleted":false,"desc":"普通商户","enabled":true,"id":4,"name":"品牌制造商","updateTime":"2019-06-22T21:54:45"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"所有模块的权限","enabled":true,"id":1,"name":"超级管理员","updateTime":"2019-01-01T00:00:00"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有商场模块的操作权限","enabled":true,"id":2,"name":"商场管理员","updateTime":"2019-01-07T15:15:12"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有推广模块的操作权限","enabled":true,"id":3,"name":"推广管理员","updateTime":"2019-01-07T15:15:24"}]}
+INFO  2021-10-07 17:07:58,650 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 17:08:04,386 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 17:08:04,539 [http-nio-8083-exec-5] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 17:08:04,542 [http-nio-8083-exec-5] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 17:08:16,579 [http-nio-8083-exec-7] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 17:08:16,606 [http-nio-8083-exec-7] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 17:09:27,294 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 17:09:27,523 [http-nio-8083-exec-2] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 17:09:27,530 [http-nio-8083-exec-2] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 17:10:26,082 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 17:10:26,274 [http-nio-8083-exec-6] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 17:10:26,289 [http-nio-8083-exec-6] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 17:10:29,404 [http-nio-8083-exec-7] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 17:10:29,416 [http-nio-8083-exec-7] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 17:10:53,639 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 17:10:53,816 [http-nio-8083-exec-1] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 17:10:53,825 [http-nio-8083-exec-1] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 17:10:59,420 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->角色查询,请求参数,name:null,page:1
+INFO  2021-10-07 17:10:59,427 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->角色查询,响应结果:{"total":4,"items":[{"addTime":"2019-06-22T21:28:19","deleted":false,"desc":"普通商户","enabled":true,"id":4,"name":"品牌制造商","updateTime":"2019-06-22T21:54:45"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"所有模块的权限","enabled":true,"id":1,"name":"超级管理员","updateTime":"2019-01-01T00:00:00"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有商场模块的操作权限","enabled":true,"id":2,"name":"商场管理员","updateTime":"2019-01-07T15:15:12"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有推广模块的操作权限","enabled":true,"id":3,"name":"推广管理员","updateTime":"2019-01-07T15:15:24"}]}
+INFO  2021-10-07 17:11:00,641 [http-nio-8083-exec-5] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 17:11:00,646 [http-nio-8083-exec-5] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 17:11:04,896 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->查询所有角色
+INFO  2021-10-07 17:11:04,896 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->查询所有角色,响应结果:[{"value":1,"label":"超级管理员"},{"value":2,"label":"商场管理员"},{"value":3,"label":"推广管理员"},{"value":4,"label":"品牌制造商"}]
+INFO  2021-10-07 17:11:04,897 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求开始】系统管理->管理员管理->查询,请求参数:username:null,page:1
+INFO  2021-10-07 17:11:04,904 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求结束】系统管理->管理员管理->查询,响应结果:{"total":2,"items":[{"avatar":"https://juhuixing-tbm.oss-cn-shenzhen.aliyuncs.com/lb4z86x7mr735sy91ys9.jpeg","id":5,"roleIds":[4],"username":"tbmdemo"},{"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg","id":1,"roleIds":[1],"username":"tbmadmin"}]}
+INFO  2021-10-07 17:11:14,054 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 17:11:14,059 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 17:36:14,779 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->角色查询,请求参数,name:null,page:1
+INFO  2021-10-07 17:36:14,785 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->角色查询,响应结果:{"total":4,"items":[{"addTime":"2019-06-22T21:28:19","deleted":false,"desc":"普通商户","enabled":true,"id":4,"name":"品牌制造商","updateTime":"2019-06-22T21:54:45"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"所有模块的权限","enabled":true,"id":1,"name":"超级管理员","updateTime":"2019-01-01T00:00:00"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有商场模块的操作权限","enabled":true,"id":2,"name":"商场管理员","updateTime":"2019-01-07T15:15:12"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有推广模块的操作权限","enabled":true,"id":3,"name":"推广管理员","updateTime":"2019-01-07T15:15:24"}]}
+INFO  2021-10-07 17:36:17,765 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->查询所有角色
+INFO  2021-10-07 17:36:17,765 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->查询所有角色,响应结果:[{"value":1,"label":"超级管理员"},{"value":2,"label":"商场管理员"},{"value":3,"label":"推广管理员"},{"value":4,"label":"品牌制造商"}]
+INFO  2021-10-07 17:36:17,771 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求开始】系统管理->管理员管理->查询,请求参数:username:null,page:1
+INFO  2021-10-07 17:36:17,790 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求结束】系统管理->管理员管理->查询,响应结果:{"total":2,"items":[{"avatar":"https://juhuixing-tbm.oss-cn-shenzhen.aliyuncs.com/lb4z86x7mr735sy91ys9.jpeg","id":5,"roleIds":[4],"username":"tbmdemo"},{"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg","id":1,"roleIds":[1],"username":"tbmadmin"}]}
+INFO  2021-10-07 17:36:19,767 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 17:36:19,771 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 17:36:39,605 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->角色查询,请求参数,name:null,page:1
+INFO  2021-10-07 17:36:39,612 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->角色查询,响应结果:{"total":4,"items":[{"addTime":"2019-06-22T21:28:19","deleted":false,"desc":"普通商户","enabled":true,"id":4,"name":"品牌制造商","updateTime":"2019-06-22T21:54:45"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"所有模块的权限","enabled":true,"id":1,"name":"超级管理员","updateTime":"2019-01-01T00:00:00"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有商场模块的操作权限","enabled":true,"id":2,"name":"商场管理员","updateTime":"2019-01-07T15:15:12"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有推广模块的操作权限","enabled":true,"id":3,"name":"推广管理员","updateTime":"2019-01-07T15:15:24"}]}
+INFO  2021-10-07 17:36:43,835 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 17:36:43,841 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 20:48:26,451 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on chendeMacBook-Pro.local with PID 3678 (/Users/chenren/Desktop/project/earthwork/tbm_api/tbm-admin-api/target/classes started by chenren in /Users/chenren/Desktop/project/earthwork/tbm_api)
+DEBUG 2021-10-07 20:48:26,453 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2021-10-07 20:48:26,454 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2021-10-07 20:48:31,117 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 5.745 seconds (JVM running for 7.576)
+INFO  2021-10-07 20:55:53,116 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"tbmadmin","password":"tbmadmin"}
+INFO  2021-10-07 20:55:53,528 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"bb2ae99b-b9c6-443a-b62b-d0467f34ab4e"
+INFO  2021-10-07 20:55:53,589 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 20:55:53,688 [http-nio-8083-exec-10] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2021-10-07 20:55:53,703 [http-nio-8083-exec-10] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"userTotal":1}
+INFO  2021-10-07 20:55:56,215 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 20:55:56,308 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 20:56:03,164 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求开始】系统管理->管理员管理->查询,请求参数:username:null,page:1
+INFO  2021-10-07 20:56:03,169 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->查询所有角色
+INFO  2021-10-07 20:56:03,169 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->查询所有角色,响应结果:[{"value":1,"label":"超级管理员"},{"value":2,"label":"商场管理员"},{"value":3,"label":"推广管理员"},{"value":4,"label":"品牌制造商"}]
+INFO  2021-10-07 20:56:03,181 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminAdminController > 【请求结束】系统管理->管理员管理->查询,响应结果:{"total":2,"items":[{"avatar":"https://juhuixing-tbm.oss-cn-shenzhen.aliyuncs.com/lb4z86x7mr735sy91ys9.jpeg","id":5,"roleIds":[4],"username":"tbmdemo"},{"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg","id":1,"roleIds":[1],"username":"tbmadmin"}]}
+INFO  2021-10-07 20:56:04,323 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求开始】系统管理->角色管理->角色查询,请求参数,name:null,page:1
+INFO  2021-10-07 20:56:04,333 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminRoleController > 【请求结束】系统管理->角色管理->角色查询,响应结果:{"total":4,"items":[{"addTime":"2019-06-22T21:28:19","deleted":false,"desc":"普通商户","enabled":true,"id":4,"name":"品牌制造商","updateTime":"2019-06-22T21:54:45"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"所有模块的权限","enabled":true,"id":1,"name":"超级管理员","updateTime":"2019-01-01T00:00:00"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有商场模块的操作权限","enabled":true,"id":2,"name":"商场管理员","updateTime":"2019-01-07T15:15:12"},{"addTime":"2019-01-01T00:00:00","deleted":false,"desc":"只有推广模块的操作权限","enabled":true,"id":3,"name":"推广管理员","updateTime":"2019-01-07T15:15:24"}]}
+INFO  2021-10-07 20:56:05,974 [http-nio-8083-exec-4] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求开始】行政区域管理->查询,请求参数,name:null,code:null,page:1
+INFO  2021-10-07 20:56:05,993 [http-nio-8083-exec-4] c.qiguliuxing.dts.admin.web.AdminRegionController > 【请求结束】行政区域管理->查询,响应结果:{"total":3231,"items":[{"code":659006,"id":3231,"name":"铁门关市","pid":375,"type":3},{"code":659004,"id":3230,"name":"五家渠市","pid":375,"type":3},{"code":659003,"id":3229,"name":"图木舒克市","pid":375,"type":3},{"code":659002,"id":3228,"name":"阿拉尔市","pid":375,"type":3},{"code":659001,"id":3227,"name":"石河子市","pid":375,"type":3},{"code":654326,"id":3226,"name":"吉木乃县","pid":374,"type":3},{"code":654325,"id":3225,"name":"青河县","pid":374,"type":3},{"code":654324,"id":3224,"name":"哈巴河县","pid":374,"type":3},{"code":654323,"id":3223,"name":"福海县","pid":374,"type":3},{"code":654322,"id":3222,"name":"富蕴县","pid":374,"type":3},{"code":654321,"id":3221,"name":"布尔津县","pid":374,"type":3},{"code":654301,"id":3220,"name":"阿勒泰市","pid":374,"type":3},{"code":654226,"id":3219,"name":"和布克赛尔蒙古自治县","pid":373,"type":3},{"code":654225,"id":3218,"name":"裕民县","pid":373,"type":3},{"code":654224,"id":3217,"name":"托里县","pid":373,"type":3},{"code":654223,"id":3216,"name":"沙湾县","pid":373,"type":3},{"code":654221,"id":3215,"name":"额敏县","pid":373,"type":3},{"code":654202,"id":3214,"name":"乌苏市","pid":373,"type":3},{"code":654201,"id":3213,"name":"塔城市","pid":373,"type":3},{"code":654028,"id":3212,"name":"尼勒克县","pid":372,"type":3}]}
+INFO  2021-10-07 20:56:10,641 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 20:56:10,646 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 20:57:19,166 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 20:57:19,365 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 20:57:19,379 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 20:57:25,740 [http-nio-8083-exec-6] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 20:57:25,952 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 20:57:25,966 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 20:58:04,018 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 20:58:04,238 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 20:58:04,247 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 21:00:47,396 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 21:00:47,681 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 21:00:47,690 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 21:25:51,764 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 21:25:51,777 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 21:26:33,580 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 21:26:33,588 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 21:28:43,539 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求开始】用户管理->会员管理->查询,请求参数,username:null,code:null,page:1
+INFO  2021-10-07 21:28:43,547 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminUserController > 【请求结束】用户管理->会员管理->查询:响应结果:{"total":1,"items":[{"addTime":"2119-12-21T01:18:04","avatar":"https://avatar.csdnimg.cn/8/A/0/2_qiguliuxing.jpg","deleted":false,"gender":0,"id":199,"lastLoginIp":"116.199.58.251","lastLoginTime":"2019-12-21T01:18:04","mobile":"13433******","nickname":"l***","password":"$2a$10$IUK******","status":0,"updateTime":"2119-12-21T01:18:04","userLevel":0,"username":"luotestl***"}]}
+INFO  2021-10-07 21:31:29,086 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 21:31:44,799 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 21:32:02,568 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2021-10-07 21:32:37,802 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"tbmadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
