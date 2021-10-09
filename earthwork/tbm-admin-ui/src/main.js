@@ -21,6 +21,9 @@ import * as filters from './filters' // global filters
 
 import permission from '@/directive/permission/index.js' // 权限判断指令
 
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
 Vue.use(Element, {
   size: Cookies.get('size') || 'medium', // set element-ui default size
   i18n: (key, value) => i18n.t(key, value)

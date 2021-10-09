@@ -29,7 +29,6 @@
 </template>
 
 <script>
-import { fetchList, approveAgency, detailApprove } from '@/api/user'
 import Pagination from '@/components/Pagination' // Secondary package based on el-pagination
 
 export default {
@@ -51,12 +50,9 @@ export default {
     }
   },
   created() {
-    this.getList()
+
   },
   methods: {
-    getList() {
-
-      }
   }
 }
 </script>

@@ -78,12 +78,12 @@ export default new Router({
 })
 
 export const asyncRouterMap = [
-{
+  {
     path: '/tbm',
     component: Layout,
     redirect: 'noredirect',
     alwaysShow: true,
-    name: 'tbmState',
+    name: 'tbm',
     meta: {
       title: '盾构机管理',
       icon: 'chart'
@@ -94,7 +94,7 @@ export const asyncRouterMap = [
         component: () => import('@/views/tbm/info'),
         name: 'info',
         meta: {
-          perms: ['GET /admin/tbmState/info'],
+          perms: ['GET /admin/tbm/info'],
           title: '盾构机状态',
           noCache: true
         }
@@ -104,7 +104,7 @@ export const asyncRouterMap = [
         component: () => import('@/views/tbm/list'),
         name: 'list',
         meta: {
-          perms: ['GET /admin/tbmState/info'],
+          perms: ['GET /admin/tbm/info'],
           title: '盾构机列表',
           noCache: true
         }
